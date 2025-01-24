@@ -35,3 +35,8 @@ console.log("Balance after multiplication:",accountBalance);
 
 accountBalance /= 2;
 console.log("Balance after division:",accountBalance);
+
+//Task 4: String Data Type
+let customerName = "Jane Doe";
+let welcomeMessage = "Welcome, " + customerName;
+console.log(welcomeMessage);
