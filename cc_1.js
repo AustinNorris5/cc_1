@@ -40,3 +40,17 @@ console.log("Balance after division:",accountBalance);
 let customerName = "Jane Doe";
 let welcomeMessage = "Welcome, " + customerName;
 console.log(welcomeMessage);
+
+//Task 5: Boolean Data Type
+let isLoggedIn = true;
+let hasAccessPermission = false;
+
+let canAccessSystem = isLoggedIn && hasAccessPermission;
+
+let isUnauthorized = !canAccessSystem;
+
+console.log("Is logged in:", isLoggedIn);
+console.log("Has access permission:", hasAccessPermission);
+console.log("Can access system:", canAccessSystem);
+console.log("is unauthorized:", isUnauthorized);
+
